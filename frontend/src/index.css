@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Design tokens (see docs/design.md). */
+@theme {
+  --color-primary: #5b3a8e;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #ede4f7;
+  --color-on-primary-container: #2e1650;
+  --color-accent: #e8a317;
+  --color-on-accent: #2b1d00;
+  --color-accent-container: #fff1d1;
+  --color-surface: #fffbf5;
+  --color-surface-container: #f6efe6;
+  --color-surface-high: #efe6da;
+  --color-ink: #2a2420;
+  --color-ink-muted: #5e554d;
+  --color-outline: #cfc4b7;
+  --color-error: #b3261e;
+
+  /* Risk colours: only for risk badges and charts, always with emoji + label. */
+  --color-risk-low: #2e8b57;
+  --color-risk-english-gap: #2f6fd1;
+  --color-risk-support: #d98c00;
+  --color-risk-specialist: #c0392b;
+  --color-risk-pending: #8a8178;
+
+  --font-display: "Lexend", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-sans: "Atkinson Hyperlegible Next", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-hindi: "Noto Sans Devanagari", "Atkinson Hyperlegible Next", sans-serif;
+
+  --radius-card: 12px;
+  --radius-panel: 20px;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Devanagari needs generous line height so matras are never clipped. */
+:lang(hi),
+.hindi {
+  font-family: var(--font-hindi);
+  line-height: 1.7;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Browser surfaces carry the palette too. */
+::selection {
+  background: var(--color-accent-container);
+  color: var(--color-on-primary-container);
+}
+
+html {
+  caret-color: var(--color-primary);
+  scrollbar-color: var(--color-outline) transparent;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,38 @@
+{
+  "text": " पनीर",
+  "task": "transcribe",
+  "language": "Hindi",
+  "duration": 3.6879999999999997,
+  "words": [
+    {
+      "word": "पनीर",
+      "start": 1.06,
+      "end": 1.64
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 1.66,
+      "text": " पनीर",
+      "tokens": [
+        50365,
+        8485,
+        103,
+        35082,
+        31881,
+        25411,
+        50448
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19903679,
+      "compression_ratio": 0.59090906,
+      "no_speech_prob": 0.36645508
+    }
+  ],
+  "x_groq": {
+    "id": "req_01m3qas5wpe4a9vykk393wgxw1"
+  }
+}

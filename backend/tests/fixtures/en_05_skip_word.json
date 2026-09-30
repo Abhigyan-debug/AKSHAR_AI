@@ -1,0 +1,65 @@
+{
+  "text": " The cat sat on the mat.",
+  "task": "transcribe",
+  "language": "English",
+  "duration": 4.624,
+  "words": [
+    {
+      "word": "The",
+      "start": 1.08,
+      "end": 1.2
+    },
+    {
+      "word": "cat",
+      "start": 1.2,
+      "end": 1.62
+    },
+    {
+      "word": "sat",
+      "start": 1.62,
+      "end": 1.96
+    },
+    {
+      "word": "on",
+      "start": 1.96,
+      "end": 2.18
+    },
+    {
+      "word": "the",
+      "start": 2.18,
+      "end": 2.4
+    },
+    {
+      "word": "mat.",
+      "start": 2.4,
+      "end": 3.2
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 2.72,
+      "text": " The cat sat on the mat.",
+      "tokens": [
+        50365,
+        440,
+        3857,
+        3227,
+        322,
+        264,
+        3803,
+        13,
+        50501
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.34810558,
+      "compression_ratio": 0.82758623,
+      "no_speech_prob": 0.0063591003
+    }
+  ],
+  "x_groq": {
+    "id": "req_01m3qas9fce5evjmwz1pxhqjy6"
+  }
+}

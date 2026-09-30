@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "note": "Original practice content. Never reuses test words, made-up words or passages (tests/test_practice.py checks this). Single alphabet letters are the one exception: they are the curriculum itself.",
+  "games": {
+    "matra": {
+      "lang": "hi",
+      "pairs": [
+        ["मिल", "मील"],
+        ["सिख", "सीख"],
+        ["दिया", "दीया"],
+        ["पिता", "पीता"],
+        ["सुना", "सूना"],
+        ["धुल", "धूल"],
+        ["कुल", "कूल"],
+        ["मेल", "मैल"],
+        ["बेल", "बैल"],
+        ["सेर", "सैर"],
+        ["ओर", "और"],
+        ["कोन", "कौन"],
+        ["कम", "काम"],
+        ["जल", "जाल"],
+        ["बल", "बाल"],
+        ["दल", "दाल"]
+      ]
+    },
+    "breath": {
+      "lang": "hi",
+      "pairs": [
+        ["कान", "खान"],
+        ["चल", "छल"],
+        ["चाल", "छाल"],
+        ["दान", "धान"],
+        ["पल", "फल"],
+        ["बात", "भात"],
+        ["बाग", "भाग"],
+        ["तान", "थान"],
+        ["गड़ा", "घड़ा"]
+      ]
+    },
+    "twins": {
+      "lang": "hi",
+      "pairs": [
+        ["ब", "व"],
+        ["भ", "म"],
+        ["घ", "ध"],
+        ["प", "ष"],
+        ["थ", "य"]
+      ]
+    },
+    "builder": {
+      "lang": "hi",
+      "words": [
+        { "word": "बादल", "tiles": ["बा", "द", "ल"], "distractors": ["ब", "दा"], "is_nonword": false },
+        { "word": "मछली", "tiles": ["म", "छ", "ली"], "distractors": ["च", "लि"], "is_nonword": false },
+        { "word": "किताब", "tiles": ["कि", "ता", "ब"], "distractors": ["की", "भ"], "is_nonword": false },
+        { "word": "जहाज", "tiles": ["ज", "हा", "ज"], "distractors": ["झ", "ह"], "is_nonword": false },
+        { "word": "बकरी", "tiles": ["ब", "क", "री"], "distractors": ["व", "रि"], "is_nonword": false },
+        { "word": "लामिर", "tiles": ["ला", "मि", "र"], "distractors": ["ल", "मी"], "is_nonword": true },
+        { "word": "सुकेम", "tiles": ["सु", "के", "म"], "distractors": ["सू", "भ"], "is_nonword": true },
+        { "word": "पोनाम", "tiles": ["पो", "ना", "म"], "distractors": ["फो", "भ"], "is_nonword": true }
+      ]
+    },
+    "mirror": {
+      "lang": "en",
+      "words": ["bat", "bus", "box", "bun", "dog", "dot", "duck", "doll", "pan", "pen", "pig", "pot", "quiz", "queen"]
+    },
+    "readalong": {
+      "stories": [
+        { "id": "hi_rain", "lang": "hi", "title": "बारिश", "lines": ["काले बादल आए।", "टप टप बारिश आई।", "मीनू ने छाता खोला।", "मेंढक बोला, टर्र टर्र!"] },
+        { "id": "hi_fair", "lang": "hi", "title": "मेला", "lines": ["गाँव में मेला लगा।", "झूला ऊपर नीचे जाता।", "अमन ने लाल गुब्बारा लिया।", "दादी ने जलेबी दिलाई।"] },
+        { "id": "en_bus", "lang": "en", "title": "The Big Bus", "lines": ["The big bus is yellow.", "It stops at the gate.", "Kids get on and sit down.", "Beep beep, off we go!"] },
+        { "id": "en_hen", "lang": "en", "title": "Where Is the Chick?", "lines": ["A hen looks for her chick.", "Is it in the box?", "Peep, peep! Here it is.", "The hen is happy now."] }
+      ]
+    }
+  }
+}

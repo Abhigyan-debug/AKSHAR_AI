@@ -1,0 +1,71 @@
+{
+  "text": " Tom can jump over the big log.",
+  "task": "transcribe",
+  "language": "English",
+  "duration": 9.687999487999999,
+  "words": [
+    {
+      "word": "Tom",
+      "start": 0.98,
+      "end": 1.3
+    },
+    {
+      "word": "can",
+      "start": 1.3,
+      "end": 1.62
+    },
+    {
+      "word": "jump",
+      "start": 1.62,
+      "end": 6.34
+    },
+    {
+      "word": "over",
+      "start": 6.34,
+      "end": 6.82
+    },
+    {
+      "word": "the",
+      "start": 6.82,
+      "end": 7.14
+    },
+    {
+      "word": "big",
+      "start": 7.14,
+      "end": 7.56
+    },
+    {
+      "word": "log.",
+      "start": 7.56,
+      "end": 7.82
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 7.8399997,
+      "text": " Tom can jump over the big log.",
+      "tokens": [
+        50365,
+        5041,
+        393,
+        3012,
+        670,
+        264,
+        955,
+        3565,
+        13,
+        50757
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.273341,
+      "compression_ratio": 0.7948718,
+      "no_speech_prob": 0.006362915
+    }
+  ],
+  "x_groq": {
+    "id": "req_01m3qas9snesxacwq4tfy89rfd"
+  }
+}

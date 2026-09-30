@@ -1,0 +1,47 @@
+{
+  "lang": "en",
+  "version": 1,
+  "note": "Original items written for Akshar; not taken from DALI or any published test. Not clinically validated - for demo. English auto results count only after teacher verification (spec 6). Letters: accept the letter name or its sound.",
+  "items": [
+    { "id": "en_A_01", "section": "A", "text": "b", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_b_d"] },
+    { "id": "en_A_02", "section": "A", "text": "d", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_b_d"] },
+    { "id": "en_A_03", "section": "A", "text": "p", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_p_q"] },
+    { "id": "en_A_04", "section": "A", "text": "q", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_p_q"] },
+    { "id": "en_A_05", "section": "A", "text": "m", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_m_w"] },
+    { "id": "en_A_06", "section": "A", "text": "w", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_m_w"] },
+    { "id": "en_A_07", "section": "A", "text": "n", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_u_n"] },
+    { "id": "en_A_08", "section": "A", "text": "u", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["letter_reversal_risk", "pair_u_n"] },
+    { "id": "en_A_09", "section": "A", "text": "s", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": [] },
+    { "id": "en_A_10", "section": "A", "text": "h", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": [] },
+
+    { "id": "en_B_01", "section": "B", "text": "cat", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["cvc"] },
+    { "id": "en_B_02", "section": "B", "text": "ship", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["digraph"] },
+    { "id": "en_B_03", "section": "B", "text": "was", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["sight_word", "word_reversal_risk"] },
+    { "id": "en_B_04", "section": "B", "text": "from", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["sight_word", "blend"] },
+    { "id": "en_B_05", "section": "B", "text": "jump", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["blend"] },
+    { "id": "en_B_06", "section": "B", "text": "train", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["blend", "vowel_team"] },
+    { "id": "en_B_07", "section": "B", "text": "bed", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["cvc", "pair_b_d"] },
+    { "id": "en_B_08", "section": "B", "text": "dig", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 1, "tags": ["cvc", "pair_b_d"] },
+    { "id": "en_B_09", "section": "B", "text": "said", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["sight_word"] },
+    { "id": "en_B_10", "section": "B", "text": "frog", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["blend"] },
+
+    { "id": "en_C_01", "section": "C", "text": "napkim", "is_nonword": true, "near_real": "napkin", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "near_real"] },
+    { "id": "en_C_02", "section": "C", "text": "fendop", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable"] },
+    { "id": "en_C_03", "section": "C", "text": "bisdal", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "pair_b_d"] },
+    { "id": "en_C_04", "section": "C", "text": "drumpet", "is_nonword": true, "near_real": "trumpet", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "near_real", "blend"] },
+    { "id": "en_C_05", "section": "C", "text": "tobid", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "pair_b_d"] },
+    { "id": "en_C_06", "section": "C", "text": "sunpim", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable"] },
+    { "id": "en_C_07", "section": "C", "text": "gablet", "is_nonword": true, "near_real": "tablet", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "near_real"] },
+    { "id": "en_C_08", "section": "C", "text": "mistop", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable"] },
+    { "id": "en_C_09", "section": "C", "text": "pabden", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "pair_b_d"] },
+    { "id": "en_C_10", "section": "C", "text": "kitlen", "is_nonword": true, "near_real": "kitten", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["two_syllable", "near_real"] },
+
+    { "id": "en_D_01", "section": "D", "text": "Sam has a small red boat. Every day he takes it to the pond near his house. One day the wind was very strong and the boat went far away. Sam ran around the pond and found it under a big tree.", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["passage"], "word_count": 42 },
+
+    { "id": "en_E_01", "section": "E", "prompt": "Say 'cat' without the /k/ sound.", "text": "at", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "en_E_02", "section": "E", "prompt": "Say 'stop' without the /s/ sound.", "text": "top", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "en_E_03", "section": "E", "prompt": "Say 'ship' without the /sh/ sound.", "text": "ip", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "en_E_04", "section": "E", "prompt": "Say 'fan'. Now change the /f/ to /m/. What word do you get?", "text": "man", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_substitution"] },
+    { "id": "en_E_05", "section": "E", "prompt": "Which word rhymes with 'bed': 'red' or 'bag'?", "text": "red", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 1, "tags": ["rhyme"] }
+  ]
+}

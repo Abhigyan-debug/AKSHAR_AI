@@ -1,0 +1,21 @@
+clip_id,lang,expected,spoken,error_type,pause_s,notes,pause_after,accepted_variants,scoring
+hi_01_control_word,hi,बिल्ली,बिल्ली,none,,Real word with conjunct - read correctly,,,auto
+hi_02_matra_ii_i,hi,मीठा,मिठा,matra_confusion,,Read long ी as short ि (mee-tha -> mi-tha),,,auto
+hi_03_va_ba,hi,वजन,बजन,visual_akshara_swap,,Read व as ब - result is a nonword,,,auto
+hi_04_control_nonword,hi,पमीर,पमीर,none,,Nonword read correctly,,,auto
+hi_05_lexicalization,hi,पमीर,पनीर,lexicalization,,Nonword read as the real word पनीर,,,auto
+hi_06_aspiration,hi,खाना,काना,aspiration_error,,Read ख as unaspirated क,,,auto
+hi_07_conjunct,hi,स्कूल,सकूल,conjunct_error,,Split स्क into स + क (sa-kool),,,auto
+hi_08_skip_word,hi,सोनू हर सुबह स्कूल जाता है,सोनू हर स्कूल जाता है,omission,,Skip सुबह,,,auto
+hi_09_long_pause,hi,मीना ने लाल गुब्बारा खरीदा,मीना ने लाल गुब्बारा खरीदा,long_pause,3,Stay silent ~3 s after लाल,लाल,,auto
+hi_10_letter_control,hi,ब,ब,none,,Single letter read correctly,,,manual
+hi_11_letter_swap,hi,ब,व,visual_akshara_swap,,Single letter ब read as व,,,manual
+hi_12_letter_sha,hi,ष,ष,none,,ष and श sound the same - Whisper may write श,,श,manual
+en_01_b_d,en,bed,ded,letter_reversal,,Read b as d - result is a nonword,,,auto
+en_02_was_saw,en,was,saw,word_reversal,,Read was as saw,,,auto
+en_03_control_nonword,en,napkim,napkim,none,,Two-syllable near-real nonword read correctly,,,auto
+en_04_lexicalization,en,napkim,napkin,lexicalization,,Nonword read as the real word napkin,,,auto
+en_05_skip_word,en,the cat sat on the red mat,the cat sat on the mat,omission,,Skip red,,,auto
+en_06_long_pause,en,tom can jump over the big log,tom can jump over the big log,long_pause,3,Stay silent ~3 s after can,can,,auto
+en_07_control_nonword,en,fendop,fendop,none,,Two-syllable nonword read correctly,,,auto
+en_08_short_nonword,en,mib,mib,none,,Short nonword - teacher scores it by hand,,,manual

@@ -1,0 +1,47 @@
+{
+  "lang": "hi",
+  "version": 1,
+  "note": "Original items written for Akshar; not taken from DALI or any published test. Not clinically validated - for demo.",
+  "items": [
+    { "id": "hi_A_01", "section": "A", "text": "ब", "is_nonword": false, "near_real": null, "accepted_variants": ["बा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_ब_व", "aspiration_pair"] },
+    { "id": "hi_A_02", "section": "A", "text": "व", "is_nonword": false, "near_real": null, "accepted_variants": ["वा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_ब_व"] },
+    { "id": "hi_A_03", "section": "A", "text": "भ", "is_nonword": false, "near_real": null, "accepted_variants": ["भा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_भ_म", "aspirated"] },
+    { "id": "hi_A_04", "section": "A", "text": "म", "is_nonword": false, "near_real": null, "accepted_variants": ["मा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_भ_म"] },
+    { "id": "hi_A_05", "section": "A", "text": "घ", "is_nonword": false, "near_real": null, "accepted_variants": ["घा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_घ_ध", "aspirated"] },
+    { "id": "hi_A_06", "section": "A", "text": "ध", "is_nonword": false, "near_real": null, "accepted_variants": ["धा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_घ_ध", "aspirated"] },
+    { "id": "hi_A_07", "section": "A", "text": "प", "is_nonword": false, "near_real": null, "accepted_variants": ["पा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_प_ष", "aspiration_pair"] },
+    { "id": "hi_A_08", "section": "A", "text": "ष", "is_nonword": false, "near_real": null, "accepted_variants": ["षा", "श", "शा"], "scoring": "manual", "grade": 1, "tags": ["visual_pair", "pair_प_ष"] },
+    { "id": "hi_A_09", "section": "A", "text": "क", "is_nonword": false, "near_real": null, "accepted_variants": ["का"], "scoring": "manual", "grade": 1, "tags": ["aspiration_pair", "pair_क_ख"] },
+    { "id": "hi_A_10", "section": "A", "text": "ख", "is_nonword": false, "near_real": null, "accepted_variants": ["खा"], "scoring": "manual", "grade": 1, "tags": ["aspirated", "pair_क_ख"] },
+
+    { "id": "hi_B_01", "section": "B", "text": "कमल", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["no_matra"] },
+    { "id": "hi_B_02", "section": "B", "text": "पीला", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["matra_ii", "matra_aa"] },
+    { "id": "hi_B_03", "section": "B", "text": "दिन", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["matra_i"] },
+    { "id": "hi_B_04", "section": "B", "text": "भालू", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["aspirated", "pair_भ_म", "matra_aa", "matra_uu"] },
+    { "id": "hi_B_05", "section": "B", "text": "खेत", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["aspirated", "pair_क_ख", "matra_e"] },
+    { "id": "hi_B_06", "section": "B", "text": "मोर", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["matra_o"] },
+    { "id": "hi_B_07", "section": "B", "text": "पैसा", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["matra_ai", "matra_aa"] },
+    { "id": "hi_B_08", "section": "B", "text": "गुलाब", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 2, "tags": ["matra_u", "matra_aa"] },
+    { "id": "hi_B_09", "section": "B", "text": "स्कूल", "is_nonword": false, "near_real": null, "accepted_variants": ["इस्कूल"], "scoring": "auto", "grade": 2, "tags": ["conjunct", "matra_uu"] },
+    { "id": "hi_B_10", "section": "B", "text": "प्यास", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["conjunct", "matra_aa"] },
+
+    { "id": "hi_C_01", "section": "C", "text": "पमीर", "is_nonword": true, "near_real": "पनीर", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_ii", "near_real"] },
+    { "id": "hi_C_02", "section": "C", "text": "लोकुस", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_o", "matra_u"] },
+    { "id": "hi_C_03", "section": "C", "text": "बिठान", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_i", "aspirated", "matra_aa"] },
+    { "id": "hi_C_04", "section": "C", "text": "धीमक", "is_nonword": true, "near_real": "दीमक", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["aspirated", "matra_ii", "near_real"] },
+    { "id": "hi_C_05", "section": "C", "text": "भेलन", "is_nonword": true, "near_real": "बेलन", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["aspirated", "pair_भ_म", "matra_e", "near_real"] },
+    { "id": "hi_C_06", "section": "C", "text": "घमोर", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["aspirated", "pair_घ_ध", "matra_o"] },
+    { "id": "hi_C_07", "section": "C", "text": "चिपौल", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_i", "matra_au"] },
+    { "id": "hi_C_08", "section": "C", "text": "गैतम", "is_nonword": true, "near_real": "गौतम", "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_ai", "near_real"] },
+    { "id": "hi_C_09", "section": "C", "text": "क्रिलम", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["conjunct", "matra_i"] },
+    { "id": "hi_C_10", "section": "C", "text": "तबूल", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["matra_uu"] },
+
+    { "id": "hi_D_01", "section": "D", "text": "रीना के घर के पास एक बड़ा पेड़ है। उस पेड़ पर एक छोटी चिड़िया रहती है। हर सुबह चिड़िया मीठा गाना गाती है। रीना खिड़की से उसे देखती है और मुस्कुराती है। एक दिन रीना ने चिड़िया के लिए पानी रखा।", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "auto", "grade": 3, "tags": ["passage"], "word_count": 42 },
+
+    { "id": "hi_E_01", "section": "E", "prompt": "'कमल' में से 'क' हटाओ, तो क्या बचेगा?", "text": "मल", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "hi_E_02", "section": "E", "prompt": "'पतंग' में से 'प' हटाओ, तो क्या बचेगा?", "text": "तंग", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "hi_E_03", "section": "E", "prompt": "'नमक' में से 'न' हटाओ, तो क्या बचेगा?", "text": "मक", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["phoneme_deletion", "initial"] },
+    { "id": "hi_E_04", "section": "E", "prompt": "'सड़क' में से आखिरी 'क' हटाओ, तो क्या बचेगा?", "text": "सड़", "is_nonword": true, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 3, "tags": ["phoneme_deletion", "final"] },
+    { "id": "hi_E_05", "section": "E", "prompt": "कौन-सा शब्द 'मोर' जैसा सुनाई देता है: 'चोर' या 'चाय'?", "text": "चोर", "is_nonword": false, "near_real": null, "accepted_variants": [], "scoring": "manual", "grade": 2, "tags": ["rhyme"] }
+  ]
+}

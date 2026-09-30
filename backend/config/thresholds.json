@@ -1,0 +1,56 @@
+{
+  "_note": "PROVISIONAL. Every value here was calibrated on synthetic (TTS) speech in the 2026-09-30 spike, or is illustrative. They MUST be re-tuned on real recordings of children before any real use. Not clinically validated - for demo only.",
+
+  "confidence": {
+    "_note": "Segment-level gate (spec 5.4). Spike: mishearings ~ -0.9 avg_logprob, correct transcripts >= -0.45.",
+    "min_avg_logprob": -0.6,
+    "max_no_speech_prob": 0.6
+  },
+
+  "timing": {
+    "_note": "Spec 5.1. Multi-word reading only: whisper-large-v3 folds pauses into the next word's span, so a gap OR a long word counts as hesitation. Single-word items use slow_start and slow_decoding_s (per section, first word start to last word end) instead.",
+    "hesitation_gap_s": 1.0,
+    "long_word_s": 0.8,
+    "slow_start_s": 3.0,
+    "slow_decoding_s": { "A": 3.0, "B": 4.0, "C": 5.0, "E": 6.0 }
+  },
+
+  "error_weights": {
+    "_note": "Spec 6. Language-specific entries override 'default'.",
+    "default": {
+      "lexicalization": 3,
+      "hesitation": 2,
+      "slow_start": 2,
+      "slow_decoding": 2,
+      "omission": 1,
+      "addition": 1,
+      "first_letter_guess": 1,
+      "conjunct_error": 0.5,
+      "self_correction": 0.25,
+      "unclassified": 0.5
+    },
+    "hi": {
+      "matra_confusion": 2,
+      "aspiration_error": 2,
+      "visual_akshara_swap": 2,
+      "transposition": 2
+    },
+    "en": {
+      "letter_reversal": 1,
+      "word_reversal": 1,
+      "vowel_error": 1,
+      "transposition": 1
+    }
+  },
+
+  "risk": {
+    "_note": "Spec 6. Illustrative cut-offs.",
+    "weak_acc_words": 0.7,
+    "weak_acc_nonwords": 0.6,
+    "wcpm_min_by_grade": { "1": 20, "2": 35, "3": 50, "4": 65, "5": 80 },
+    "pattern_min_weighted_error_score": 0.5,
+    "pattern_min_lexicalizations": 2,
+    "pattern_min_timing_rate": 0.3,
+    "section_min_coverage": 0.6
+  }
+}

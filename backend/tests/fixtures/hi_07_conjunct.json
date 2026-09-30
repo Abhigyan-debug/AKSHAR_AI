@@ -1,0 +1,38 @@
+{
+  "text": " सकूल",
+  "task": "transcribe",
+  "language": "Hindi",
+  "duration": 3.832,
+  "words": [
+    {
+      "word": "सकूल",
+      "start": 1.08,
+      "end": 1.78
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 1.8,
+      "text": " सकूल",
+      "tokens": [
+        50365,
+        49316,
+        41858,
+        8703,
+        224,
+        46758,
+        50455
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.12865861,
+      "compression_ratio": 0.59090906,
+      "no_speech_prob": 0.22314453
+    }
+  ],
+  "x_groq": {
+    "id": "req_01m3qas6geecb9kw23yxc74vye"
+  }
+}
